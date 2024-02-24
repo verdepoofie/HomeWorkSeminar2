@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HomeWorkSeminar2
+﻿namespace HomeWorkSeminar2
 {
     internal class Exercise5
     {
@@ -21,21 +15,21 @@ namespace HomeWorkSeminar2
                     while (true)
                     {
                         input = Console.ReadLine();
-                        if(int.TryParse(input, out int guess))
+                        if (int.TryParse(input, out int guess))
                         {
                             if (guess > correctAnswer)
                                 Console.WriteLine("Введенное значение больше");
                             if (guess < correctAnswer)
                                 Console.WriteLine("Введенное значение меньше");
-                            if(guess == correctAnswer)
+                            if (guess == correctAnswer)
                             {
                                 Console.WriteLine("Вы угадали!");
                                 break;
                             }
                         }
-                        else if(input == "q")
+                        else if (input == "q")
                         {
-                            Console.WriteLine("Загаданное число: " +  correctAnswer.ToString());
+                            Console.WriteLine("Загаданное число: " + correctAnswer.ToString());
                             break;
                         }
                         else

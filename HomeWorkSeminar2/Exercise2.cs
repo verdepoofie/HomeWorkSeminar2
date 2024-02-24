@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HomeWorkSeminar2
+﻿namespace HomeWorkSeminar2
 {
     internal class Exercise2
     {
@@ -18,7 +12,7 @@ namespace HomeWorkSeminar2
                 {
                     int sum = 0;
                     Console.WriteLine("Введите значения карт от 2 до 10, а так же J, Q, K, A через Enter");
-                    for(int i = 0; i < cardNumer; i++)
+                    for (int i = 0; i < cardNumer; i++)
                     {
                         input = Console.ReadLine();
                         input = input.ToUpper();
@@ -32,7 +26,7 @@ namespace HomeWorkSeminar2
                             i--;
                         }
                     }
-                    Console.WriteLine("Сумма карт: " +  sum.ToString());
+                    Console.WriteLine("Сумма карт: " + sum.ToString());
                     break;
                 }
                 Console.WriteLine("Вы ввели не верное значение, попробуйте еще раз");

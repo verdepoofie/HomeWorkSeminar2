@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HomeWorkSeminar2
+﻿namespace HomeWorkSeminar2
 {
     internal class Exercise1
     {

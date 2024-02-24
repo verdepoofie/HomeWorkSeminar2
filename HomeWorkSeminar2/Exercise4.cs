@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HomeWorkSeminar2
+﻿namespace HomeWorkSeminar2
 {
     internal class Exercise4
     {
@@ -23,7 +17,7 @@ namespace HomeWorkSeminar2
                         input = Console.ReadLine();
                         if (int.TryParse(input, out int number))
                         {
-                            if(number < min)
+                            if (number < min)
                                 min = number;
                         }
                         else

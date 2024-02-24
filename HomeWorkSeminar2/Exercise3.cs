@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HomeWorkSeminar2
+﻿namespace HomeWorkSeminar2
 {
     internal class Exercise3
     {
@@ -17,7 +11,7 @@ namespace HomeWorkSeminar2
                 if (int.TryParse(input, out var result) && result > 0)
                 {
                     bool isNotPrimal = false;
-                    for(int i = 2; i < result; i++)//i = 2, так как все числа делятся на 1 без остатка
+                    for (int i = 2; i < result; i++)//i = 2, так как все числа делятся на 1 без остатка
                         if (result % i == 0)
                         {
                             isNotPrimal = true;
